@@ -42,5 +42,7 @@ ax.set_xlabel('Age (Years)')
 ax.set_ylabel('Weight (lbs)')
 ax.set_title(f'Laika\'s Weight with Exponential Fit DOB {dob}')
 plt.show()
+fig.savefig('laika-weight.png')
+
 #printing
 
